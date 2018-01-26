@@ -1,0 +1,21 @@
+{
+  "debug":          false,
+  "sampleTime":     5000,
+  "mqtt": {
+    "url":          "mqtt://localhost:1883",
+    "username":     "user",
+    "password":     "pass",
+    "topicPrefix":  "POWERMETER/",
+    "deltaTopic":   "alert/"
+  },
+  "rs485": {
+    "port":         "/dev/ttyUSB0",
+    "baudRate":     57600,
+    "dataBits":     8,
+    "stopBits":     1,
+    "parity":       "even",
+    "autoOpen":     false,
+    "timeout":      500,
+    "modbusAdress": 1
+  }
+}

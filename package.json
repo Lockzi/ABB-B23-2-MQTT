@@ -1,0 +1,19 @@
+{
+  "name": "ABB-B23-2-MQTT",
+  "version": "1.0.0",
+  "description": "Monitor ABB B23 111-100 and send response over MQTT",
+  "main": "index.js",
+  "directories": {
+  },
+  "dependencies": {
+    "chai": "^4.1.2",
+    "modbus-serial": "^7.0.1",
+    "mqtt": "^2.15.0"
+  },
+  "devDependencies": {
+  },
+  "scripts": {
+  },
+  "author": "Lockzi",
+  "license": "ISC"
+}
